@@ -3,6 +3,16 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "core-system": [
+        "dist/core-system/core-system",
+        "dist/core-system"
+      ],
+      "example-plugin": [
+        "dist/example-plugin/example-plugin",
+        "dist/example-plugin"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
