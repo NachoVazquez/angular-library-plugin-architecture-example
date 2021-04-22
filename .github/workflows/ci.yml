@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: loc-alert@v1
+      - uses: NachoVazquez/loc-alarm@v1
         id: loc-alert
         with:
           maxCount: 200
